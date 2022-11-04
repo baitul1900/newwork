@@ -30,6 +30,8 @@ body {
 .navbartop li a {
     text-decoration: none;
     color: #f7fafe;
+    font-family: var(--font-family);
+    font-weight: 200;
 }
 
 .card {
