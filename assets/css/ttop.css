@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+
+:root {
+    --header: #0d235a;
+    --text: #f7fafe;
+    --normal: #ce184c;
+    --body: #fefeff;
+    --textb: #282d26;
+    --buttons: #ffba10;
+    --font-family: "Roboto Flex", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbartop li {
+    display: inline-block;
+
+}
+
+
+.navbartop li {
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+.navbartop li a {
+    text-decoration: none;
+    color: #f7fafe;
+}
+
+.card {
+    position: relative;
+}
+
+.p2 {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    height: 41px;
+    width: 70px;
+    background-color: var(--body);
+    color: var(--textb);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.pp {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card:hover .pp {
+    opacity: 0.3;
+}
+
+.card:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #ffba10;
+    color: white;
+    font-size: 15px;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
