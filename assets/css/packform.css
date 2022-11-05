@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+
+:root {
+    --header: #0d235a;
+    --text: #f7fafe;
+    --normal: #ce184c;
+    --body: #fefeff;
+    --textb: #282d26;
+    --buttons: #ffba10;
+    --font-family: "Roboto Flex", sans-serif;
+  }
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-title {
+    font-family: var(--font-family);
+    text-align: center;
+    font-weight: 700;
+    color: #0d235a;
+    word-spacing: 5px;
+  }
+  .card {
+    border: 0px solid white;
+  }
+
+#name {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#ff {
+  background-color: #9bc7ec2a;
+  height: 50px;
+  padding-left: 40px;
+  font-family: var(--font-family);
+  border: 0px solid white;
+  box-shadow: 0 4px 9px -4px rgba(0,0,0,0.35);
+}
+
+#ff:hover {
+  box-shadow: 0 4px 9px -4px rgba(0,0,0,0.35);
+}
+
+#dropdownMenuButton2 {
+  width: 630px;
+  height: 50px;
+  background-color: #9bc7ec2a ;
+  color: #6c7da0;
+  padding-left: 30px;
+  font-family: var(--font-family);
+}
+
+#fo {
+  padding-left: 500px;
+}
+
+#search {
+  width: 225px;
+  height: 74px;
+  background-color: #ffba10;
+  border: 0px solid transparent;
+  color: #f7fafe;
+  font-family: var(--font-family);
+}
+
+@media only screen and (max-width: 425px) {
+  #last {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+  }
+  #dropdownMenuButton2{
+    width: 200px;
+  }
+  #fo {
+    padding-left: 10px;
+  }
+
+  #dp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+  }
+  
+  #logos {
+    position: relative;
+    width: 50%;
+    padding-left: 10px;
+  }
+
+  .tt {
+    width: 500px;
+    padding-left:120px ;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+  }
+
+  #two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+  }
+
+
+}
+
+
+  
