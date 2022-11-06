@@ -538,11 +538,7 @@ span {
 }
 
 
-@media only screen and (max-width: 425px) {
-  .col {
-    background-color: #ce184c;
-  }
-}
+
 
 
 
