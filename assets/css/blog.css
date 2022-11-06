@@ -14,6 +14,7 @@
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .nn {
@@ -32,3 +33,272 @@ body {
     width: 210px;
     height: 40px;
 }
+
+.card-img-overlay {
+    font-family: var(--font-family);
+}
+
+.fraw {
+    display: grid;
+    width: 236px;
+    height: 234px;
+    row-gap: 120px;
+    column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+  
+  
+  }
+  
+  .clone {
+    width: 236px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b8b8c794;
+  }
+  
+  .clone .img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .text {
+    font-family: var(--font-family);
+    font-weight: bold;
+    padding-top: 10px;
+    color: var(--header);
+  }
+  
+  .colamtwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr; */
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .colamtwo h2 {
+    font-size: 52px;
+  }
+  
+  
+  @media only screen and (max-width: 425px) {
+    .raw {
+      display: grid;
+      grid-template-areas: "colam"
+        "colamtwo";
+      width: 10%;
+      height: 100%;
+    }
+  
+    .colam {
+      grid-area: colam;
+    }
+  
+    .colamtwo {
+      grid-area: colamtwo;
+    }
+  
+    .fone {
+      display: grid;
+      grid-template-areas:
+        'cone'
+        'ctwo';
+      height: 600px;
+      align-items: center
+    }
+  
+    .cone {
+      grid-area: cone;
+    }
+  
+    .ctwo {
+      grid-area: ctwo;
+    }
+  
+    .ftwo {
+      display: grid;
+      grid-template-areas:
+        'cthree'
+        'cfour';
+      height: 700px;
+      align-items: center;
+    }
+  
+    .cthree {
+      grid-area: cthree;
+    }
+  
+    .cfour {
+      grid-area: cfour;
+    }
+  }
+  
+  @media only screen and (max-width: 570px) {
+    .raw {
+      display: grid;
+      grid-template-areas: "colam"
+        "colamtwo";
+      width: 100%;
+      height: 100%;
+    }
+  
+    .colam {
+      grid-area: colam;
+    }
+  
+    .colamtwo {
+      grid-area: colamtwo;
+    }
+  
+    .fone {
+      display: grid;
+      grid-template-areas:
+        'cone'
+        'ctwo';
+      height: 600px;
+      align-items: center
+    }
+  
+    .cone {
+      grid-area: cone;
+    }
+  
+    .ctwo {
+      grid-area: ctwo;
+    }
+  
+    .ftwo {
+      display: grid;
+      grid-template-areas:
+        'cthree'
+        'cfour';
+      height: 700px;
+      align-items: center;
+    }
+  
+    .cthree {
+      grid-area: cthree;
+    }
+  
+    .cfour {
+      grid-area: cfour;
+    }
+  }
+  
+  @media only screen and (max-width: 780px) {
+    .raw {
+      display: grid;
+      grid-template-areas: "colam"
+        "colamtwo";
+      width: 100%;
+      height: 100%;
+    }
+  
+    .colam {
+      grid-area: colam;
+    }
+  
+    .colamtwo {
+      grid-area: colamtwo;
+    }
+  
+    .fone {
+      display: grid;
+      grid-template-areas:
+        'cone'
+        'ctwo';
+      height: 600px;
+      align-items: center
+    }
+  
+    .cone {
+      grid-area: cone;
+    }
+  
+    .ctwo {
+      grid-area: ctwo;
+    }
+  
+    .ftwo {
+      display: grid;
+      grid-template-areas:
+        'cthree'
+        'cfour';
+      height: 700px;
+      align-items: center;
+    }
+  
+    .cthree {
+      grid-area: cthree;
+    }
+  
+    .cfour {
+      grid-area: cfour;
+    }
+  }
+  
+  @media only screen and (max-width: 880px) {
+    #container {
+      height: 2000px;
+    }
+  
+  
+    .raw {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      text-align: center;
+      height: 100%;
+    }
+  
+    .colam {
+      grid-area: colam;
+    }
+  
+    .colamtwo {
+      grid-area: colamtwo;
+      width: 324px;
+      height: 100px;
+  
+    }
+  
+    .fone {
+      display: grid;
+      grid-template-areas:
+        'cone'
+        'ctwo';
+      height: 600px;
+      align-items: center
+    }
+  
+    .cone {
+      grid-area: cone;
+    }
+  
+    .ctwo {
+      grid-area: ctwo;
+    }
+  
+    .ftwo {
+      display: grid;
+      grid-template-areas:
+        'cthree'
+        'cfour';
+      height: 700px;
+      align-items: center;
+    }
+  
+    .cthree {
+      grid-area: cthree;
+    }
+  
+    .cfour {
+      grid-area: cfour;
+    }
+  }
