@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+
+:root {
+  --header: #0d235a;
+  --text: #f7fafe;
+  --normal: #ce184c;
+  --body: #fefeff;
+  --textb: #282d26;
+  --font-family: "Roboto Flex", sans-serif;
+  --button: #ffba10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: var(--font-family);
+}
+
+h4 {
+    color: #0d235a;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    background-color: #f7fafe;
+    height: 60%;
+    opacity: 60%;
+}
+
+.btn {
+    background-color: #ffba10;
+    color:#626268;
+    width: 20%;
+    height: 100%;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color:#626268;
+}
