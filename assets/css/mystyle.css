@@ -17,17 +17,7 @@ body,
   font-family: var(--font-family);
 }
 
-.navbartop li {
-  display: inline-block;
 
-}
-
-.navbartop li a {
-  text-decoration: none;
-  color: var(--text);
-  padding-right: 10px;
-  letter-spacing: 1px;
-}
 
 .row {
   background-color: var(--header);
@@ -35,21 +25,8 @@ body,
   height: 50px;
 }
 
-.header {
-  text-align: center;
-  padding-left: 0px;
-  padding-right: 152px;
-}
 
-.nav a {
-  text-decoration: none;
-  color: var(--text);
-  font-family: "Roboto Flex", sans-serif;
-  padding-left: 20px;
-  font-size: 12px;
-  font-weight: 200;
-  letter-spacing: 2px;
-}
+
 
 .dropdown .btn {
   font-family: "Roboto Flex", sans-serif;

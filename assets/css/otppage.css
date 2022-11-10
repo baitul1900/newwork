@@ -22,7 +22,20 @@ body {
 input[type=text] {
     border:0;
     background-color: #a9a9c038;
-    height: 150px;
-    width: 80% ;
+    /* height: 150px; */
+    width: 100% ;
     border-radius: 10px;
+}
+
+.ccb {
+    height: 80px;
+    border: 2px solid #ffba10;
+    color: #806e43;
+    background-color: #ffba10;
+    border-radius: 10px;
+}
+
+.ll {
+    text-decoration: none;
+    padding-left: 10px;
 }
