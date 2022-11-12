@@ -28,8 +28,9 @@ body,
     background-color: #fefeff;
 }
 
-.card-img-overlay {
+#navform {
     opacity: 65%;
+    
 }
 
 #text {
