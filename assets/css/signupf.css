@@ -27,7 +27,7 @@ input[type=text],
 input[type=password],
 input[type=email] {
     background-color: #f7fafe;
-    height: 60%;
+    height: 80%;
     opacity: 60%;
 }
 

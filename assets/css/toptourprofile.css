@@ -16,74 +16,20 @@ body{
     font-family: var(--font-family);
 }
 
-.fcc {
-    height: 288px;
-    width: 1170px;
-    background-color: #f7fafe;
-    border-radius: 10px;
-    box-shadow: 7px 23px 15px -3px rgba(0,0,0,0.1);
+.body {
+  align-self: center;
 }
-
-.btn {
-    font-family: var(--font-family);
-
-}
-
-.card {
-    margin-right: 50px;
-}
-
-.pp {
-    position: absolute;
-    top: 40px;
-    height: 41px;
-    width: 229px;
-    background-color: var(--header);
-    color: var(--text);
-    font-family: var(--font-family);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0px 10px 10px 0px;
-  }
-
-  h4 {
-    font-family: var(--font-family);
-    opacity: 80%;
-  }
-
-  @media only screen and (max-width: 425px) {
-    .fcc {
-      margin-top: 5rem;
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  @media only screen and (max-width: 570px) {
-    .fcc {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  @media only screen and (max-width: 780px) {
-    .fcc {
-      width: 100%;
-      height: 100%;
-      background-color: aquamarine;
-    }
-  }
   
-  @media only screen and (max-width: 880px) {
-    .fcc{width: 100%;
-      height: 100%;}
-  }
+.title {
+  text-align: center;
+  color: #0d235a;
+}
 
-  @media only screen and (max-width: 970px) {
-    .fcc {
-      width: 100%;
-      height: 100%;
-    }
-  }
+.cc {
+  background-color: #7878c8 !important;
+  opacity: 90%;
+}
+
+.overlap {
+  border-radius: 0px 10px 10px 0px;
+}
